@@ -5,6 +5,12 @@ learning to code!
 
 <img width="499" alt="Screen Shot 2022-12-15 at 11 22 39 AM" src="https://user-images.githubusercontent.com/7529435/207926857-3f757992-bb1c-4b86-9a5f-c80c058b1f86.png">
 
+## How To Play
+
+Avoid the ghosts! Use the arrow keys to shine the flashlight back and forth, zapping
+as many ghosts as possible. But be warned! The ghosts keep coming faster and faster,
+and your flashlight is running out of battery. Let the thunderbolts reach the center
+to recharge your battery!
 
 ## Getting Started
 

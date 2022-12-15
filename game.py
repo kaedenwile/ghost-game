@@ -1,11 +1,11 @@
 import pygame, math, random
 
-SCREEN_SIZE = 800
+SCREEN_SIZE = 500
 FPS = 60
-GHOST_SPEED = 2
+GHOST_SPEED = 1.5
 GHOST_ACCELERATION = 1.0006
-MAX_ANGLE = ANGLE = math.pi / 4
-FLASHLIGHT_SHRINK = 0.999995
+MAX_ANGLE = ANGLE = math.pi / 8
+FLASHLIGHT_SHRINK = 0.9995
 SCORE, DIRECTION, IS_GAME_OVER = 0, 0, False
 
 pygame.init()
@@ -52,7 +52,7 @@ while True:
             Ghost().add(ghosts)
 
     screen.fill((0, 0, 0))
-    pygame.draw.polygon(screen, (255, 175, 175), [
+    pygame.draw.polygon(screen, (255, 255, 0), [
         (SCREEN_SIZE / 2, SCREEN_SIZE / 2),
         polar_coords(SCREEN_SIZE, DIRECTION - ANGLE),
         polar_coords(SCREEN_SIZE, DIRECTION + ANGLE),
